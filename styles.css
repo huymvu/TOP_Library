@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+#library{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: solid;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    background-color: lightcyan;
+}
+
+#showAddBook{
+    display: block;
+    margin:0 auto;
+    padding:20px;
+    font-size: 20px;
+    background-color: lightblue;
+    color:black;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+dialog{
+    border-radius: 10px;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+    font-style: italic;
+}
+.remove-button{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+.read-status{
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.read-status.true{
+    background-color: lightgreen;
+}
+
+.read-status.false{
+    background-color: red;
+}
+.toggle-read-button{
+    background-color: rgb(56, 56, 231);
+    color:white;
+    font-weight: bold;
+}
